@@ -4,6 +4,7 @@ import {useQuery} from "@apollo/react-hooks";
 import styles from "./Styles";
 import ListItem from "./ListItem";
 import Error from "../../../Components/Error";
+import Loading from "../../../Components/Loading";
 
 const GET_APPS = gql`
     {
@@ -20,7 +21,7 @@ const A = () => {
     const {loading, error, data = {}} = useQuery(GET_APPS)
     const { apps } = data
 
-    if(loading) return "Loading..."
+    if(loading) return <Loading />
 
     if(error) return <Error />
 

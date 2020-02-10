@@ -7,6 +7,7 @@ import Error from "../../Components/Error";
 import {Router} from "@reach/router";
 import AppDetail from "../AppDetail";
 import Layout from "../../Layouts/DefaultLayout";
+import Loading from "../../Components/Loading";
 
 const GET_VARIANT = gql`
   {
@@ -18,7 +19,7 @@ const App = () => {
   const {loading, error, data = {}} = useQuery(GET_VARIANT)
   const { variant } = data
 
-  if(loading) return 'Loading...'
+  if(loading) return <Loading />
 
   if(error) return <Error />
 
