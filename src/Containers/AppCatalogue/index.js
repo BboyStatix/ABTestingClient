@@ -1,10 +1,6 @@
 import React from 'react';
-import Variant from "./Variant";
+import loadVariantComponent from "../../HOCs/loadVariantComponent";
+import A from "./A";
+import B from "./B";
 
-const AppCatalogue = () => {
-  return (
-      <Variant />
-  )
-}
-
-export default AppCatalogue;
+export default loadVariantComponent({A: <A />, B: <B />});
