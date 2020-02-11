@@ -15,7 +15,7 @@ const ListItem = ({app}) => {
              onMouseEnter={() => setHover(true)}
              onMouseLeave={() => setHover(false)}
              //TODO this navigation logic can be HOC'd
-             onClick={() => navigate(`/app/${app.id}`)}
+             onClick={() => navigate(`app/${app.id}`)}
         >
             <Icon url={app.icon} />
             <div style={styles.appInfoContainer}>

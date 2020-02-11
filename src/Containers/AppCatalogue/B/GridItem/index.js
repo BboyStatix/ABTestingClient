@@ -15,7 +15,7 @@ const GridItem = ({app}) => {
              onMouseEnter={() => setHover(true)}
              onMouseLeave={() => setHover(false)}
             //TODO this navigation logic can be HOC'd
-             onClick={() => navigate(`/app/${app.id}`)}
+             onClick={() => navigate(`app/${app.id}`)}
         >
             <div style={styles.iconContainer}>
                 <Icon url={app.icon} />

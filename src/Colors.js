@@ -1,7 +1,9 @@
 export default {
     error: 'red',
     header: 'darkblue',
-    headline: 'grey',
+    grey: 'grey',
     darkBGText: 'white',
-    hovered: 'lightBlue'
+    hovered: 'lightBlue',
+    green: 'green',
+    blue: 'blue'
 }

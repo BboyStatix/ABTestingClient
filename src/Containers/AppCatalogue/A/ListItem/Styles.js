@@ -13,7 +13,7 @@ export default {
         marginLeft: '10px'
     },
     headline: {
-        color: Colors.headline
+        color: Colors.grey
     },
     hovered: {
         backgroundColor: Colors.hovered,
