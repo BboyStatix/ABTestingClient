@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useContext} from "react";
 import styles from "./Styles";
+import {VariantContext} from "../../Contexts";
 
 const Header = () => {
+    const variant = useContext(VariantContext)
     return (
         <div style={styles.header}>
-            App Store
+            <div>
+                App Store
+            </div>
+            <div>{`Variant  ${variant}`}</div>
         </div>
     )
 }
