@@ -1,6 +1,8 @@
 # ABTesting Client
 A frontend client with a built-in abstraction mechanism for AB testing. Simply use the loadVariant and loadStyles HOCs and use function composition to combine the two when needed to easily develop multiple variants of your screens. Normally, having multiple variants could result in a high level of complexity that becomes unmaintainable over time, but this repository's structure is built with that in mind to keep it maintainable no matter how many variants of a screen you have.
 
+Link to server: https://github.com/BboyStatix/ABTestingServer
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
