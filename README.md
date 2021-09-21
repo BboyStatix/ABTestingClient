@@ -1,5 +1,5 @@
 # ABTesting Client
-A frontend client with a built-in abstraction mechanism for AB testing. Simply use the HOCs and use function composition to combine them when needed to easily develop multiple variants of your screens at different levels of variations.
+A frontend client showcasing an abstraction that makes it easy for developers to add variants of screens to the codebase without it becoming unmaintainable. Simply use the HOCs and use function composition to combine them when needed to easily develop multiple variants of your screens.
 
 Normally, having multiple variants could result in a high level of complexity that becomes unmaintainable over time, but this repository's structure is built with that in mind to keep it maintainable no matter how many variants of a screen you have.
 
@@ -14,6 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [NodeJS](https://nodejs.org/en/)
 Please install node version >= 9.3.0. You can try installing with latest node version. If it doesn't work use 9.3.0.
 You can use [NVM](https://github.com/nvm-sh/nvm) to set the node version.
+* [ABTesting Server](https://github.com/BboyStatix/ABTestingServer)
 
 ### Installing
 
