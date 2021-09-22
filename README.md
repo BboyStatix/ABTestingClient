@@ -3,7 +3,21 @@ A frontend client showcasing an abstraction that makes it easy for developers to
 
 Normally, having multiple variants could result in a high level of complexity that becomes unmaintainable over time, but this repository's structure is built with that in mind to keep it maintainable no matter how many variants of a screen you have.
 
-Link to server: https://github.com/BboyStatix/ABTestingServer
+## Variations in layout
+### A
+<img width="587" alt="Screenshot 2021-09-23 at 7 05 39 AM" src="https://user-images.githubusercontent.com/19769879/134433554-1172cf49-5a87-4de4-a17d-1b7ec6436abc.png">
+
+### B
+<img width="594" alt="Screenshot 2021-09-23 at 7 05 13 AM" src="https://user-images.githubusercontent.com/19769879/134433569-0e9c8152-0343-4823-8cea-fb56673c3bec.png">
+
+## Variations in style
+### A
+<img width="779" alt="Screenshot 2021-09-23 at 7 05 54 AM" src="https://user-images.githubusercontent.com/19769879/134433581-e8e7b405-12dc-4992-ad58-d3decefb6afe.png">
+
+### B
+</div>
+<img width="730" alt="Screenshot 2021-09-23 at 7 04 53 AM" src="https://user-images.githubusercontent.com/19769879/134433594-e474d81e-ac73-41f6-bc23-26eaff886fc4.png">
+Only the colour of the button is different here
 
 ## Getting Started
 
