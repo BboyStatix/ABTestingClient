@@ -17,7 +17,8 @@ Normally, having multiple variants could result in a high level of complexity th
 ### B
 </div>
 <img width="730" alt="Screenshot 2021-09-23 at 7 04 53 AM" src="https://user-images.githubusercontent.com/19769879/134433594-e474d81e-ac73-41f6-bc23-26eaff886fc4.png">
-Only the colour of the button is different here
+
+**Note how only the colour of the button is different here**
 
 ## Getting Started
 
